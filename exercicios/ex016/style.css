@@ -1,0 +1,33 @@
+@charset "UTF-08";
+
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        /*height: 100%;*/
+        
+    }
+    body{ 
+        background-image: linear-gradient(to right,#012E40,#025959);
+
+    }
+    main{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #023636;
+        width:600px;
+        padding: 10px;
+        margin: auto;
+    } 
+    /*.........*/
+    h1{
+        color: royalblue;
+        text-align: center;
+        text-shadow: 2px 1px 1px black;
+    }
+    h2{ 
+        color: yellowgreen;
+        text-shadow: 1px 1px 1px black;
+    }
+    p{
+        text-align: justify;
+    }
+    /* Color Theme Swatches in Hex */
