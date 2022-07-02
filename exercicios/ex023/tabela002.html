@@ -11,6 +11,7 @@
 
         }
         table{
+            position: relative;
             border-collapse: collapse;
             width: 500px;
         }
@@ -24,19 +25,26 @@
             padding: 10px;
             background-color: rgb(196, 196, 196);
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:  rgb(59, 59, 59);
+        }
         thead,tfoot{
-            background-color: rgb(92, 91, 91);
+            background-color: rgb(59, 59, 59);
             color: white;
         }
-
-         tbody > tr:nth-child(odd){/* 2n-1 */
-            background-color: blue;
+        tbody > tr:nth-child(odd){/* 2n-1 */
+            background-color: white;
         }
-         tbody > tr:nth-child(even){/* 2n */
-            background-color: yellow;
+        tbody > tr:nth-child(even){/* 2n */
+            background-color: lightgray;
         }
         td.num{
             text-align: right;
+        }
+        main{
+            text-align: justify;
         }
     </style>
 </head>
@@ -65,7 +73,7 @@
                 <th scope="col">População</th>
             </tr>
         </thead>
-        <tbody>
+         <tbody>
             <tr>
                 <td>São Paulo</td>
                 <td class="num">45 919 049</td>
@@ -114,7 +122,38 @@
                 <td> Ceará</td>
                 <td class="num">148 894,441</td>
             </tr>
-            
+            <tr>
+                <td> Goiás</td>
+                <td class="num">340 203,329</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Sul</td>
+                <td class="num">281 707,156</td>
+            </tr>
+            <tr>
+                <td> Tocantins</td>
+                <td class="num">277 466,763</td>
+            </tr>
+            <tr>
+                <td> Rondônia</td>
+                <td class="num">237 765,24</td>
+            </tr>
+            <tr>
+                <td> Ceará</td>
+                <td class="num">148 894,441</td>
+            </tr>
+            <tr>
+                <td> Mato Grosso do Sul</td>
+                <td class="num">357 145,534	</td>
+            </tr>
+            <tr>
+                <td> Goiás</td>
+                <td class="num">340 203,329</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Sul</td>
+                <td class="num">2aaaaw
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -123,5 +162,13 @@
             </tr>
         </tfoot>
     </table>
+    <main>
+        <h2> texto para criar rolagem para teste
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis veniam maxime tempore aspernatur suscipit. Laboriosam consequatur dolorum fuga assumenda dolor, perspiciatis officiis rerum molestiae eos laudantium repellendus accusantium enim! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt perspiciatis dicta tenetur rem repudiandae, eius soluta inventore optio, commodi suscipit fugit? Esse laudantium ipsum, praesentium quibusdam incidunt facere voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos ea magnam perferendis non nulla officia praesentium doloremque cumque illo modi cum neque, odit quibusdam tenetur eaque beatae. Provident, esse? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore possimus laudantium quam pariatur porro incidunt voluptatem tempora. Sed aliquid distinctio ipsam nesciunt eos asperiores nobis ad provident quo quisquam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis veniam maxime tempore aspernatur suscipit. Laboriosam consequatur dolorum fuga assumenda dolor, perspiciatis officiis rerum molestiae eos laudantium repellendus accusantium enim! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt perspiciatis dicta tenetur rem repudiandae, eius soluta inventore optio, commodi suscipit fugit? Esse laudantium ipsum, praesentium quibusdam incidunt facere voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos ea magnam perferendis non nulla officia praesentium doloremque cumque illo modi cum neque, odit quibusdam tenetur eaque beatae. Provident, esse? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore possimus laudantium quam pariatur porro incidunt voluptatem tempora. Sed aliquid distinctio ipsam nesciunt eos asperiores nobis ad provident quo quisquam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis veniam maxime tempore aspernatur suscipit. Laboriosam consequatur dolorum fuga assumenda dolor, perspiciatis officiis rerum molestiae eos laudantium repellendus accusantium enim! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt perspiciatis dicta tenetur rem repudiandae, eius soluta inventore optio, commodi suscipit fugit? Esse laudantium ipsum, praesentium quibusdam incidunt facere voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos ea magnam perferendis non nulla officia praesentium doloremque cumque illo modi cum neque, odit quibusdam tenetur eaque beatae. Provident, esse? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore possimus laudantium quam pariatur porro incidunt voluptatem tempora. Sed aliquid distinctio ipsam nesciunt eos asperiores nobis ad provident quo quisquam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis veniam maxime tempore aspernatur suscipit. Laboriosam consequatur dolorum fuga assumenda dolor, perspiciatis officiis rerum molestiae eos laudantium repellendus accusantium enim! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt perspiciatis dicta tenetur rem repudiandae, eius soluta inventore optio, commodi suscipit fugit? Esse laudantium ipsum, praesentium quibusdam incidunt facere voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos ea magnam perferendis non nulla officia praesentium doloremque cumque illo modi cum neque, odit quibusdam tenetur eaque beatae. Provident, esse? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore possimus laudantium quam pariatur porro incidunt voluptatem tempora. Sed aliquid distinctio ipsam nesciunt eos asperiores nobis ad provident quo quisquam?</p>
+    </main>
 </body>
 </html>
